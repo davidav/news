@@ -1,0 +1,13 @@
+{
+  "title": "Update title news by user",
+  "text": "Update text news by user. Author news is user. Update text",
+  "comments": [
+    {
+      "comment": "This is comment by admin for news by user",
+      "userId": 1,
+      "newsId": 2
+    }
+  ],
+  "userId": 2,
+  "categoryId": 1
+}

@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-circular-references: true
+  jpa:
+    generate-ddl: true
+    open-in-view: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/news
+    username: postgres
+    password: postgres
+    hikari:
+      schema: news
+      connection-init-sql: CREATE SCHEMA IF NOT EXISTS news
+      connection-timeout: 10000

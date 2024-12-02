@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "firstName": "admin",
+      "secondName": "admin",
+      "countNewses": 1,
+      "countComments": 2
+    },
+    {
+      "firstName": "user",
+      "secondName": "user",
+      "countNewses": 1,
+      "countComments": 1
+    },
+    {
+      "firstName": "moderator",
+      "secondName": "moderator",
+      "countNewses": 0,
+      "countComments": 0
+    }
+  ]
+}
